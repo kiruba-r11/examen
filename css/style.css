@@ -6,13 +6,36 @@
 }
 
 :root{
-    --button-color: #34ACE0;
+    --primary: #34ACE0;
 }
 
 /* Navbar */
 
 .navbar {
+    padding: 15px 0;
     box-shadow: 0 0 30px 0 rgba(52, 172, 224 , 0.3);
+}
+
+.navbar .nav-item .nav-link {
+    color: var(--primary) !important;
+    transition: 0.5s;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: black !important;
+}
+
+.btn-white {
+    color: var(--primary);
+    box-shadow: 0 0 20px 0 rgba(52, 172, 224 , 0.3);
+    transition: 1s;
+}
+
+.btn-blue {
+    background-color: var(--primary);
+    color: white;
+    box-shadow: 0 0 20px 0 rgba(52, 172, 224 , 0.3);
+    transition: 1s;
 }
 
 @media (max-width: 991px) {
