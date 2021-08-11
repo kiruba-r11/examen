@@ -1,0 +1,20 @@
+:root{
+    --button-color: #34ACE0;
+}
+.navbar-custom {
+    background-color: rgba(255, 255, 255, 0.61);
+}
+#item1{
+    margin-top: 10px;
+    margin-right: 50px;
+    background-color: white;
+    color: var(--button-color);
+}
+#item1:hover{
+    background-color:wheat;
+}
+#item2{
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: var(--button-color);
+}
