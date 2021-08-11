@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root{
+    --button-color: #34ACE0;
+}
+
+/* Navbar */
+
+.navbar {
+    box-shadow: 0 0 30px 0 rgba(52, 172, 224 , 0.3);
+}
+
+@media (max-width: 991px) {
+    .navbar .navbar-nav:last-child {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar .navbar-nav .btn {
+        width: 49%;
+    }
+
+    .navbar .navbar-nav .btn {
+        margin: 10px 0 !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar .nav-item .nav-link {
+        text-align: center;
+    }
+}
+
+@media (max-width: 350px) {
+    .navbar .navbar-nav:last-child {
+        flex-direction: column;
+    }
+
+    .navbar .navbar-nav .btn {
+        width: 100%;
+    }
+}
