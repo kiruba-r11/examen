@@ -117,6 +117,17 @@ footer .foot2 .fab:hover {
   padding-right: 7%;
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
 @media (max-width: 991px) {
   .navbar .navbar-nav:last-child {
     flex-direction: row;
@@ -178,6 +189,13 @@ footer .foot2 .fab:hover {
 }
 
 @media (max-width: 350px) {
+    .navbar .navbar-nav:last-child {
+        flex-direction: column;
+    }
+
+    .navbar .navbar-nav .btn {
+        width: 100%;
+    }
   .navbar .navbar-nav:last-child {
     flex-direction: column;
   }
