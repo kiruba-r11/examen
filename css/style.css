@@ -189,7 +189,6 @@ footer .foot2 .fab:hover {
 }
 
 @media (max-width: 350px) {
-<<<<<<< HEAD
     .navbar .navbar-nav:last-child {
         flex-direction: column;
     }
@@ -197,7 +196,6 @@ footer .foot2 .fab:hover {
     .navbar .navbar-nav .btn {
         width: 100%;
     }
-=======
   .navbar .navbar-nav:last-child {
     flex-direction: column;
   }
@@ -205,5 +203,4 @@ footer .foot2 .fab:hover {
   .navbar .navbar-nav .btn {
     width: 100%;
   }
->>>>>>> 2a6289c9a4013e8c316751647355bce99fbb3e46
 }
