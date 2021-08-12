@@ -8,6 +8,58 @@
 :root{
     --primary: #34ACE0;
 }
+/* Footer */
+a{
+    text-decoration: none;
+    
+}
+
+li{
+    list-style: none;
+    margin: 8px;
+}
+
+footer{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+.body button{
+    margin: 10px;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3% 12% 0 0;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+}
+
+.body2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 4%;
+    width: 50%;
+}
+.foot2 li{
+    margin: 10px;
+}
+.foot2:last-child{
+    justify-content: flex-end;
+    padding-right: 7% ;
+}
 
 /* Navbar */
 
@@ -51,8 +103,45 @@
     .navbar .navbar-nav .btn {
         margin: 10px 0 !important;
     }
+    .body{
+        flex-wrap: wrap;
+    }
+    .body section{
+        width: 100%;
+        text-align: center;
+        padding-left: 10%;
+        margin-bottom: 40px;
+    }
+    .body2{
+        margin-top: 20px;
+    }
 }
-
+@media (max-width: 630px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .body {
+        flex-direction: column;
+        text-align: center;
+    }
+    .body2 {
+        
+        flex-wrap: wrap;
+    }
+    
+    .foot2, .foot2:last-child{
+        width: 100%;
+        justify-content: center;
+        padding-right: 10%;
+        margin-bottom: 10px;
+    }
+    .foot2 li{
+        margin-left: 5%;
+    }
+    
+    
+}
 @media (max-width: 576px) {
     .navbar .nav-item .nav-link {
         text-align: center;
