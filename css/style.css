@@ -14,6 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    justify-content: space-between;
 }
 
 /* Navbar */
@@ -95,41 +96,33 @@ body {
 
 footer {
     background-color: var(--primary-shadow);
-    margin-top: auto;
 }
 
-footer a {
-    text-decoration: none;
-    padding: 10px;
-    color: var(--primary);
-    transition: 0.5s;
+#footer-icons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px 20px;
 }
 
-footer a:hover {
-    color: black;
+footer .social-icons {
+	padding: 10px;
+	text-align: center;
 }
 
-footer .terms a:first-child {
-    padding-left: 0;
+footer .fa-2x {
+	padding: 10px;
+	transition: 0.5s;
 }
 
-footer .fab {
-    color: var(--primary);
-    transition: 0.5s;
+footer .fa-2x:hover {
+	color: var(--primary);
 }
 
-footer .fab:hover {
-    color: black;
+footer p {
+	margin: 20px 0;
+	font-size: 1.3rem;
 }
-
-/* 
-.no-underline {
-    text-decoration: none;
-}
-
-.no-bullet {
-    list-style: none;
-} */
 
 @media (max-width: 991px) {
     .navbar .navbar-nav:last-child {
@@ -151,43 +144,41 @@ footer .fab:hover {
     .navbar .navbar-nav .btn {
         margin: 10px 0 !important;
     }
-    .footer-top {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    footer .row .col-sm-4 {
-        margin-top: 50px;
-        text-align: center;
-    }
-}
-
-@media (max-width: 768px) {
-    footer .col-sm-3 {
-        align-items: center;
-        justify-content: space-between !important;
-    }
 }
 
 @media (max-width: 576px) {
-    footer .col-sm-7 {
-        justify-content: center;
-        padding-bottom: 10px;
+    footer .social-icons {
+		padding: 5px;
+	}
+	footer p { 
+		margin: 10px 0;
+		font-size: 1rem;
+	} 
+	.fa-2x {
+		font-size: 1.8rem;
     }
-    footer .col-sm-3 {
-        justify-content: center !important;
-    }
-    footer .fab {
-        padding: 10px;
-    }
+}
+
+@media (max-width: 375px) {
+    footer p { 
+		font-size: 0.8rem;
+	}
 }
 
 @media (max-width: 350px) {
     .navbar .navbar-nav:last-child {
         flex-direction: column;
     }
-
     .navbar .navbar-nav .btn {
         width: 100%;
     }
+}
+
+@media (max-width:  300px) {
+	footer .social-icons {
+		padding: 0;
+	}
+	.fa-2x {
+		font-size: 1.5rem;
+	}
 }
