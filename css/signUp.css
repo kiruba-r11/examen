@@ -91,6 +91,8 @@ body {
 .form {
   align-items: center;
   width: 50%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .form a {
