@@ -56,6 +56,8 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  margin-top: min(20px, 25px);
+  margin-bottom: min(20px, 25px);
 }
 
 .flex-container {
@@ -122,8 +124,14 @@ body {
 }
 
 @media (max-width: 767px) {
+  .container-well {
+    border-radius: 20px;
+  }
   .image {
     display: none;
+  }
+  .left-content {
+    width: 100%;
   }
   .form {
     width: 100%
@@ -134,5 +142,11 @@ body {
   }
   .flex-container {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 330px){
+  .form div {
+    flex-direction: column !important;
   }
 }
