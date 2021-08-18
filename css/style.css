@@ -82,7 +82,7 @@ body {
 
 /* Main Content*/
 
-.main {
+/* .main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,6 +90,17 @@ body {
     height: 500px;
     text-align: center;
     font-size: 20px;
+} */
+
+main .feature-card {
+    border-top: 3px solid var(--primary);
+    box-shadow: 0 0 40px 0 var(--primary-shadow);
+    border-radius: 5px;
+}
+
+main .fas:hover {
+    color: var(--primary);
+    transition: 0.5s;
 }
 
 /* Footer */
@@ -143,6 +154,13 @@ footer p {
     }
     .navbar .navbar-nav .btn {
         margin: 10px 0 !important;
+    }
+    main .row {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    main .row .feature-card{
+        margin-top: 50px;
     }
 }
 
