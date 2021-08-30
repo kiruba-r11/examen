@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Nikhilr1411",
+      "name": "Nikhil",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83808544?v=4",
+      "profile": "https://github.com/Nikhilr1411",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "examen",
+  "projectOwner": "kiruba-r11",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
