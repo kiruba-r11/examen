@@ -1,6 +1,6 @@
 # examen
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 A quiz platform!
 
@@ -14,6 +14,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/Nikhilr1411"><img src="https://avatars.githubusercontent.com/u/83808544?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nikhil</b></sub></a><br /><a href="https://github.com/kiruba-r11/examen/commits?author=Nikhilr1411" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/KISHORE-LAXMAN"><img src="https://avatars.githubusercontent.com/u/85792305?v=4?s=100" width="100px;" alt=""/><br /><sub><b>KISHORE-LAXMAN</b></sub></a><br /><a href="https://github.com/kiruba-r11/examen/commits?author=KISHORE-LAXMAN" title="Code">💻</a></td>
   </tr>
 </table>
 
